@@ -24,7 +24,7 @@
         "psr-4":{
             "Core\\":"core",
             "Database\\":"database",
-            "Discovery\\": "src",
+            "Discovery\\": "discovery",
             "Im\\":"grpc/Im",
             "GPBMetadata\\":"grpc/GPBMetadata",
             "Grpc\\":"grpc",
