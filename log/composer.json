@@ -1,0 +1,20 @@
+{
+  "name": "brewlin/log",
+  "type": "library",
+  "keywords": [
+    "php",
+    "swoole"
+  ],
+  "description": "swoole",
+  "license": "Apache-2.0",
+  "require": {
+
+  },
+  "autoload": {
+    "classmap": [
+    ],
+    "psr-4": {
+
+    }
+  }
+}
