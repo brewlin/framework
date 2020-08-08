@@ -21,7 +21,7 @@
     "repositories": {
         "0":{
             "type":"vcs",
-            "url":"http://www.github.com/brewlin/framework"
+            "url":"https://www.github.com/brewlin/framework"
         },
         "packagist": {
             "type": "composer",
