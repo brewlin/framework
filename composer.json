@@ -1,17 +1,17 @@
 {
     "name": "brewlin/framework",
-    "description": "swoole framework compnents core",
+    "description": "swoole framework compnents src/core",
     "type": "library",
     "license": "Apache-2.0",
     "keywords": [
-        "task",
-        "process",
-        "queue",
+        "src/task",
+        "src/process",
+        "src/queue",
         "memeory",
-        "discovery",
+        "src/discovery",
         "center",
         "swoole",
-        "grpc",
+        "src/grpc",
         "framework"
     ],
     "authors": [
@@ -22,26 +22,26 @@
     ],
     "autoload":{
         "psr-4":{
-            "Core\\":"core",
-            "Database\\":"database",
-            "Discovery\\": "discovery",
-            "Im\\":"grpc/Im",
-            "GPBMetadata\\":"grpc/GPBMetadata",
-            "Grpc\\":"grpc",
-            "Log\\": "log",
-            "Memory\\":"memory",
-            "Process\\":"process",
-            "ImQueue\\":"queue",
-            "ImRedis\\":"redis",
-            "Stdlib\\": "stdlib",
-            "Task\\": "task"
+            "Core\\": "src/core",
+            "Database\\": "src/database",
+            "Discovery\\": "src/discovery",
+            "Im\\": "src/grpc/Im",
+            "GPBMetadata\\": "src/grpc/GPBMetadata",
+            "Grpc\\": "src/grpc",
+            "Log\\": "src/log",
+            "Memory\\": "src/memory",
+            "Process\\": "src/process",
+            "ImQueue\\": "src/queue",
+            "ImRedis\\": "src/redis",
+            "Stdlib\\": "src/stdlib",
+            "Task\\": "src/task"
         },
         "files": [
-            "core/Helper/functions.php",
-            "discovery/Helper/functions.php",
-            "queue/Helper/functions.php",
-            "stdlib/Helper/Functions.php",
-            "task/Helper/Functions.php"
+            "src/core/Helper/functions.php",
+            "src/discovery/Helper/functions.php",
+            "src/queue/Helper/functions.php",
+            "src/stdlib/Helper/Functions.php",
+            "src/task/Helper/Functions.php"
         ]
     },
     "require": {

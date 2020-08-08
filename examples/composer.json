@@ -1,0 +1,31 @@
+{
+    "name": "framework/demo",
+    "type": "project",
+    "keywords": [
+        "center",
+        "swoole",
+        "grpc",
+        "framework"
+    ],
+    "description": "Modern High performance Coroutine PHP Application, base on Swoole",
+    "license": "Apache-2.0",
+    "require": {
+        "brewlin/framework":"@dev"
+
+    },
+    "autoload": {
+        "psr-4":{
+            "App\\":"app/"
+        }
+    },
+    "repositories": {
+        "0":{
+            "type":"vcs",
+            "url":"http://www.github.com/brewlin/framework"
+        },
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
