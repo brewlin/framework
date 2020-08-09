@@ -36,6 +36,7 @@ class Db
     {
         /** @var DbConnectionPool $pool */
         $pool = self::connection();
+        $pool->release($pool);
         /** @var MySqlConnection $connection */
         $connection = $pool->createConnection();
         Context::addPool($pool);

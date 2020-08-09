@@ -386,7 +386,11 @@ class Logger extends \Monolog\Logger
      */
     public function formatMessage($message): string
     {
-        return is_array($message) ? json_encode($message) : $message;
+        if(is_array($message))
+            return json_encode($message);
+        if(is_string($message))
+            return $message;
+        return "";
     }
 
     /**
