@@ -1,5 +1,4 @@
-im-queue composer包 
-==============
+
 概述
 =======
 ## queue

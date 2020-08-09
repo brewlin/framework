@@ -1,5 +1,4 @@
-im-cloud grpc composer包 
-==============
+
 概述
 =======
 + 使用 `protobuf` 构建grpc 接口
