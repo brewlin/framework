@@ -54,7 +54,7 @@ class MysqlConnector
      * dsn
      * @var string
      */
-    protected $dsn = "%s:host=%s:%s;dbname=%s";
+    protected $dsn = "%s:host=%s;port=%s;dbname=%s";
 
     /**
      * dbname
